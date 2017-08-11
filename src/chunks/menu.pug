@@ -1,0 +1,25 @@
+.menu
+    button.switch.menu-control
+        i.fa.fa-2x.fa-bars(aria-hidden="true")
+        i.fa.fa-2x.fa-times(aria-hidden="true")
+    ul.bullets
+        li
+        li
+        li
+        li
+        li
+        li
+    span.current(data-num='01') Галерея
+    button.switch.down
+        i.fa.fa-chevron-down.fa-2x
+    .overlay
+    img.logo-menu(src=require('./../assets/logo-white.png'))
+    nav
+        ul
+            li.active(data-num='01') Галерея
+            li(data-num='02') Выбрать квартиру
+            li(data-num='03') О проекте
+            li(data-num='04') Расположение
+            li(data-num='05') Ход строительства
+            li(data-num='06') Новости
+            li(data-num='07') Офис продаж

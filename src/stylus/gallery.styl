@@ -2,6 +2,7 @@ section.gallery
   .slides
     position fixed
     top 0
+    z-index 5
     bottom 0
     right 0
     left 0
@@ -11,6 +12,29 @@ section.gallery
       z-index 0
       &.active
         z-index 100
-        background url('./assets/backgrounds/3.png')
+        background url('./assets/backgrounds/4.png')
         background-size cover
         background-position center
+  .logo
+    z-index 7
+    position fixed
+    top 0
+    width calc(13.5% - 50px)
+    background-color #e0dbcaee
+    right 50%
+    transform translateX(50%)
+    padding 44px 25px 26px
+    img
+      width 100%
+
+  .footer
+    height 25vh
+    background-color #e0dbca88
+    position fixed
+    width 100vw
+    bottom 0
+    z-index 7
+
+  .menu
+    z-index 99
+    position fixed

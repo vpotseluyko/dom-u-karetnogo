@@ -41,7 +41,7 @@ const obj = {
                 loader: 'pug-loader'
             },
             {
-                test: /\.(png|woff|woff2|eot|ttf|jpg|svg)$/,
+                test: /\.(png|woff|woff2|eot|ttf|jpg|otf|svg)$/,
                 loader: 'url-loader',
                 options: {
                     limit: 1

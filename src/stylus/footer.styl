@@ -1,0 +1,53 @@
+footer
+  position fixed
+  z-index 7
+  display flex
+  flex-direction column
+  bottom 0
+  height 25vh
+  right 0
+  padding-right 50px
+  align-items flex-end
+  justify-content space-around
+  text-align right
+  p.phone
+    margin 0
+    font-size 36px
+    text-transform uppercase
+    color #971208
+    &:before
+      content "+7 (812) "
+      color #1c1c1b
+  p.address
+    margin 0
+    display flex
+    align-items center
+    justify-content center
+    span
+      text-transform uppercase
+      font-size 16px
+      padding 2px 0
+  i.footer-icon
+    display block
+    height 30px
+    width 30px
+    background url('./assets/icons/footer.png')
+    background-size 30px 73px
+    &:hover
+      cursor pointer
+      background url('./assets/icons/footer-active.png')
+    &.sms
+      background-position 0 0
+    &.call
+      background-position 0 30px
+  i.footer-map
+    display inline-block
+    height 22px
+    width 20px
+    margin-right 10px
+    background url('./assets/icons/map.png')
+    background-size 20px 22px
+    &:hover
+      cursor pointer
+      background url('./assets/icons/map-active.png')
+
